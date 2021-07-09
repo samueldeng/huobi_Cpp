@@ -24,7 +24,7 @@ ENV HOME /root
 WORKDIR /root
 
 RUN \
-  git clone https://github.com/huobiapi/huobi_Cpp.git && \
+  git clone https://github.com/samueldeng/huobi_Cpp.git && \
   cd huobi_Cpp && \
   mkdir build && \
   cd build && \
