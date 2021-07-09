@@ -38,7 +38,7 @@ RUN \
   cd huobi_Cpp/demo/reference && \
   mkdir build && \
   cd build && \
-  cmake .. -DCMAKE_PREFIX_PATH=/opt/cpprest-2.10.16/lib64/cmake/ -DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/cmake && \
+  cmake .. -DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/cmake && \
   make
 
 # Define default command.
